@@ -7,3 +7,55 @@ main {
   background-repeat: no-repeat;
   height: 85vh;
 }
+
+#home-heading {
+  color: white;
+  font-weight: bolder;
+  /* color: black; */
+  /* color: #2c3e50; */
+}
+
+.fas {
+  color: #313f4d;
+}
+
+.social-link {
+  /* color: black; */
+  color: #313f4d;
+}
+
+.social-link:hover {
+  color: #4e6174;
+}
+#home-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+#about-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+#projects-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+#contact-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+#about-details {
+  width: 70%;
+  margin: auto;
+}
+
+/* .test:hover {
+  color: white;
+}
+
+.test:active {
+  color: black;
+} */
