@@ -8,7 +8,9 @@ const Header = (props) => {
     <header>
       <Navbar bg="primary" variant="dark" collapseOnSelect expand="sm">
         <Container>
-          <Navbar.Brand>HabteJ</Navbar.Brand>
+          <LinkContainer to="/">
+            <Navbar.Brand>HabteJ</Navbar.Brand>
+          </LinkContainer>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -20,10 +22,10 @@ const Header = (props) => {
               <LinkContainer to="/about" id="about-link">
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/te" id="projects-link">
+              <LinkContainer to="/projects" id="projects-link">
                 <Nav.Link>Projects</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/t" id="contact-link">
+              <LinkContainer to="/contact" id="contact-link">
                 <Nav.Link>Contact</Nav.Link>
               </LinkContainer>
             </Nav>

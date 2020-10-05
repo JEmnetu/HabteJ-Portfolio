@@ -1,14 +1,15 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
+import PageHeading from "../components/PageHeading";
 
 const HomeScreen = () => {
   return (
     <>
       <div id="home">
-        <Col sm={10} md={12} className="text-center pt-4" id="home-heading">
-          <h3>Jacob Habtemariam</h3>
-          <h2>Full Stack Web Developer</h2>
-        </Col>
+        <PageHeading
+          title="Jacob Habtemariam"
+          subtitle="Full Stack Web Developer"
+        />
       </div>
       <Container>
         <Row>

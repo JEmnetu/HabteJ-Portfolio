@@ -1,11 +1,20 @@
+/* html,
+body {
+  overflow-x: scroll;
+} */
+
+
 main {
-  height: 85vh;
+  height: auto;
+  width: auto;
 }
+
 #home {
   background: url(/images/laptop.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 85vh;
+  width: 100%;
 }
 
 #home-heading {
@@ -24,9 +33,20 @@ main {
   color: #313f4d;
 }
 
+.socials {
+  height: 50vh;
+  background-color: #e1e6e6;
+  width: 40vw;
+  border: solid 1px #4d5656;
+
+  margin: auto;
+  margin-top: 5em;
+}
+
 .social-link:hover {
   color: #4e6174;
 }
+
 #home-link:hover {
   color: white;
   opacity: 0.8;

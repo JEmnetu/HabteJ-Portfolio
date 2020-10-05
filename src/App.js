@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 import HomeScreen from "./screens/HomeScreen";
 import AboutScreen from "./screens/AboutScreen";
+import ContactScreen from "./screens/ContactScreen";
+import ProjectScreen from "./screens/ProjectScreen";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 const App = () => {
@@ -12,10 +14,12 @@ const App = () => {
     <Router>
       <div>
         <Header />
+        <Route path="/" exact component={HomeScreen} />
         <main>
-          <Route path="/" exact component={HomeScreen} />
           <Container>
             <Route path="/about" exact component={AboutScreen} />
+            <Route path="/contact" exact component={ContactScreen} />
+            <Route path="/projects" exact component={ProjectScreen} />
           </Container>
         </main>
       </div>
