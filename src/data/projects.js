@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "HabteJ Shop",
+    description:
+      "Full Stack E-Commerce web application built with React, Redux, Express, MongoDB and Node JS. Users can create an account, view an inventory of items, and go through the steps to place an order.",
+    repo: "https://github.com/JEmnetu/HabteJ-shop",
+    deploy: "https://habtejshop.herokuapp.com/",
+    img: "/images/shop.png",
+  },
+  {
     title: "Google Bookshelf",
     description:
       "Full Stack application made with React, Node JS, and MongoDB that allows the user to search for books via the Google Books API and save the books to their own collection.",
@@ -26,10 +34,10 @@ const projects = [
   {
     title: "Todo Application",
     description:
-      "A simple todo application created with React JS. This application allows the user to enter a list of todos in order to better organize their daily tasks. The user is able to mark todos as complete and remove them from their list.",
-    repo: "https://github.com/JEmnetu/react-todo",
-    deploy: "https://habtej-todo.netlify.app/",
-    img: "/images/todoapp.png",
+      "Front End todo application created with React JS. This application allows the user to enter a list of todos in order to better organize their daily tasks.",
+    repo: "https://github.com/JEmnetu/todo-app",
+    deploy: "https://jeh-todo.netlify.app/",
+    img: "/images/todo.png",
   },
   {
     title: "Calculator",

@@ -15,7 +15,7 @@ import PageHeading from "../components/PageHeading";
 const ProjectScreen = () => {
   return (
     <>
-      <Container>
+      <Container className="mb-4">
         {/* <Row className="d-flex justify-content-center pt-4">
         {projects.map((project) => (
           <Col sm={12} md={6} lg={4} xl={4} className="text-center my-4 ">
@@ -31,24 +31,37 @@ const ProjectScreen = () => {
         />
 
         <ListGroup className="pt-4" variant="flush">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <ListGroupItem
+              key={index}
               className="my-2 rounded"
               style={{ border: "solid 1px #4d5656" }}
               variant="secondary"
             >
+              {/* <Row></Row> */}
               <Row className="d-flex">
                 <Col sm={12} md={5} lg={4}>
-                  <a href={project.deploy} target="new">
-                    <img
-                      src={project.img}
-                      height="200"
-                      width="250"
-                      alt="imc"
-                      style={{ border: "solid 1px #4d5656" }}
-                      className="rounded"
-                    />
-                  </a>
+                  <Card>
+                    <a href={project.deploy} target="new">
+                      <Card.Title
+                        style={{
+                          textAlign: "center",
+                        }}
+                      >
+                        {project.title}
+                      </Card.Title>
+                    </a>
+                    <a href={project.deploy} target="new">
+                      <Card.Img
+                        src={project.img}
+                        height="200"
+                        width="250"
+                        alt="imc"
+                        style={{ border: "solid 1px #4d5656" }}
+                        className="rounded"
+                      />
+                    </a>
+                  </Card>
                 </Col>
                 <Col
                   sm={12}
@@ -64,10 +77,12 @@ const ProjectScreen = () => {
                   lg={2}
                   className="d-flex align-items-center"
                 >
-                  <a href={project.repo} target="new">
-                    {" "}
-                    <Button>Code Repo</Button>
-                  </a>
+                  <Row>
+                    <a href={project.repo} target="new">
+                      {" "}
+                      <Button>Code Repo</Button>
+                    </a>
+                  </Row>
                 </Col>
               </Row>
             </ListGroupItem>

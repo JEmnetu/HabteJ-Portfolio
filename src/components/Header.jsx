@@ -20,7 +20,7 @@ const Header = (props) => {
               </LinkContainer>
 
               <LinkContainer to="/about" id="about-link">
-                <Nav.Link>About</Nav.Link>
+                <Nav.Link>Skills</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/projects" id="projects-link">
                 <Nav.Link>Projects</Nav.Link>

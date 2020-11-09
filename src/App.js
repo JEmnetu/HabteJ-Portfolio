@@ -4,7 +4,7 @@ import "./index.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 import HomeScreen from "./screens/HomeScreen";
-import AboutScreen from "./screens/AboutScreen";
+import SkillScreen from "./screens/SkillScreen";
 import ContactScreen from "./screens/ContactScreen";
 import ProjectScreen from "./screens/ProjectScreen";
 import Header from "./components/Header";
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/" exact component={HomeScreen} />
         <main>
           <Container>
-            <Route path="/about" exact component={AboutScreen} />
+            <Route path="/about" exact component={SkillScreen} />
             <Route path="/contact" exact component={ContactScreen} />
             <Route path="/projects" exact component={ProjectScreen} />
           </Container>
