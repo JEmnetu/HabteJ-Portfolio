@@ -7,14 +7,7 @@ const projects = [
     deploy: "https://habtejshop.herokuapp.com/",
     img: "/images/shop.png",
   },
-  {
-    title: "Google Bookshelf",
-    description:
-      "Full Stack application made with React, Node JS, and MongoDB that allows the user to search for books via the Google Books API and save the books to their own collection.",
-    repo: "https://github.com/JEmnetu/myBookshelf",
-    deploy: "https://habtej-bookshelf.herokuapp.com/",
-    img: "/images/searchpage.png",
-  },
+
   {
     title: "Off The Menu",
     description:
