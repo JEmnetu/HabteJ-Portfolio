@@ -27,7 +27,7 @@ const ProjectScreen = () => {
 
         <PageHeading
           title="Projects"
-          text="Below you will find some of my personal projects, with links to the deployed applications as well as the code repos."
+          text="Below you will find my personal projects, with links to the deployed applications as well as the code repos."
         />
 
         <ListGroup className="pt-4" variant="flush">

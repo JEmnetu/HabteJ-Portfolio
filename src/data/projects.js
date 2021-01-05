@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Covid-19 Dashboard",
+    description:
+      "Front End React application that allows users to view Covid-19 case data for countries around the world, on a sleek and responsive UI. Powered by data from the Disease.sh API on Covid-19.",
+    repo: "https://github.com/JEmnetu/covid-tracker",
+    deploy: "habtej-covid-tracker.netlify.app/",
+    img: "/images/cov.png",
+  },
+  {
     title: "HabteJ Shop",
     description:
       "Full Stack E-Commerce web application built with React, Redux, Express, MongoDB and Node JS. Users can create an account, view an inventory of items, and go through the steps to place an order.",
@@ -7,7 +15,14 @@ const projects = [
     deploy: "https://habtejshop.herokuapp.com/",
     img: "/images/shop.png",
   },
-
+  {
+    title: "Weather Application",
+    description:
+      "Weather dashboard application built with React JS. This app allows the user to search the OpenWeather API for a city and display the city's current weather and 5 day forecast.",
+    repo: "https://github.com/JEmnetu/react-weather-app",
+    deploy: "https://jhweather.netlify.app/",
+    img: "/images/Rweather.png",
+  },
   {
     title: "Off The Menu",
     description:
@@ -15,14 +30,6 @@ const projects = [
     repo: "https://gitlab.com/off-the-menu/site",
     deploy: "https://otm-online.firebaseapp.com/Login",
     img: "/images/otm.png",
-  },
-  {
-    title: "Weather App",
-    description:
-      "Weather dashboard application built with React JS. This app allows the user to search the OpenWeather API for a city and display the city's current weather and 5 day forecast.",
-    repo: "https://github.com/JEmnetu/react-weather-app",
-    deploy: "https://jhweather.netlify.app/",
-    img: "/images/Rweather.png",
   },
   {
     title: "Todo Application",

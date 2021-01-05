@@ -8,7 +8,7 @@ const SkillScreen = (props) => {
       <Container>
         <PageHeading
           title="Skills"
-          text="Below are the skills that I use to create web applications."
+          // text="Below are the skills that I use to create web applications."
         />
 
         <Row className="d-flex justify-content-center py-3">
@@ -51,9 +51,11 @@ const SkillScreen = (props) => {
                 <br />
                 <span>Other Skills</span>
               </ListGroupItem>
-
               <ListGroupItem variant="secondary">
-                Responsive Web Development
+                Freelance Web Development
+              </ListGroupItem>
+              <ListGroupItem variant="secondary">
+                Responsive Design
               </ListGroupItem>
               <ListGroupItem variant="secondary">
                 Git Version Control

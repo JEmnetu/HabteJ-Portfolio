@@ -11,10 +11,7 @@ const ContactScreen = () => {
             <h5>Contact me with any questions or concerns. Let's connect!</h5>
           </Col>
         </Row> */}
-        <PageHeading
-          title="Contact"
-          text="Contact me with any questions or concerns. Let's connect!"
-        />
+        <PageHeading title="Contact" text="Let's connect!" />
 
         <Row className="d-flex justify-content-center align-items-center socials rounded">
           <Col md={4} className="text-center">

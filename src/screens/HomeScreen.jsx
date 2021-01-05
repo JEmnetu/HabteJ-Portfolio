@@ -34,7 +34,7 @@ const HomeScreen = () => {
             <p className="text-center description">
               Self motivated Web Developer from Baltimore, Maryland with a
               passion for building web applications and overcoming challenges. I
-              continue to learn about Software Development every day
+              continue to learn about Software Development every day.
             </p>
           </Col>
         </Row>
