@@ -25,7 +25,7 @@ const SkillScreen = (props) => {
               <ListGroupItem variant="secondary"> Bootstrap</ListGroupItem>
               <ListGroupItem variant="secondary">Javascript</ListGroupItem>
               <ListGroupItem variant="secondary">React</ListGroupItem>
-              <ListGroupItem variant="secondary"> Redux</ListGroupItem>
+              <ListGroupItem variant="secondary"> Gatsby</ListGroupItem>
             </ListGroup>
           </Col>
           <Col md={4} className="text-center pt-2">
@@ -41,7 +41,7 @@ const SkillScreen = (props) => {
               <ListGroupItem variant="secondary">REST APIs</ListGroupItem>
               <ListGroupItem variant="secondary">MongoDB</ListGroupItem>
               <ListGroupItem variant="secondary">SQL</ListGroupItem>
-              <ListGroupItem variant="secondary">AWS Amplify</ListGroupItem>
+              <ListGroupItem variant="secondary">GraphQL</ListGroupItem>
             </ListGroup>
           </Col>
           <Col md={4} className="text-center pt-2">

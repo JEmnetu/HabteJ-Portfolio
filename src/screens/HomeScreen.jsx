@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import PageHeading from "../components/PageHeading";
 
 const HomeScreen = () => {
   return (
@@ -24,7 +23,7 @@ const HomeScreen = () => {
             <h1 className="text-center main-title">Jacob Habtemariam</h1>
             <div className="subtitle-wrapper">
               <h2 className="text-center" style={{ color: "white" }}>
-                Full Stack Web Developer
+                Web Developer
               </h2>
             </div>
           </Col>

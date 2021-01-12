@@ -1,10 +1,18 @@
 const projects = [
   {
+    title: "Habte-Eats",
+    description:
+      "Simple restaurant website that can be used as a template for a small business restaurant. Created using Gatsby JS / React.",
+    repo: "https://github.com/JEmnetu/HabteEats",
+    deploy: "https://habte-eats.netlify.app/",
+    img: "/images/he.png",
+  },
+  {
     title: "Covid-19 Dashboard",
     description:
       "Front End React application that allows users to view Covid-19 case data for countries around the world, on a sleek and responsive UI. Powered by data from the Disease.sh API on Covid-19.",
     repo: "https://github.com/JEmnetu/covid-tracker",
-    deploy: "habtej-covid-tracker.netlify.app/",
+    deploy: "https://habtej-covid-tracker.netlify.app/",
     img: "/images/cov.png",
   },
   {
@@ -47,14 +55,14 @@ const projects = [
     deploy: "https://habtej-calculator.netlify.app/",
     img: "/images/calc.png",
   },
-  {
-    title: "Password Generator",
-    description:
-      "Jquery based web application that allows the user to create a random password with uppercase and lowercase letters, numbers, and special characters.",
-    repo: "https://github.com/JEmnetu/passwordApp",
-    deploy: "https://passwordapp.netlify.app/",
-    img: "/images/password.png",
-  },
+  // {
+  //   title: "Password Generator",
+  //   description:
+  //     "Jquery based web application that allows the user to create a random password with uppercase and lowercase letters, numbers, and special characters.",
+  //   repo: "https://github.com/JEmnetu/passwordApp",
+  //   deploy: "https://passwordapp.netlify.app/",
+  //   img: "/images/password.png",
+  // },
 ];
 
 export default projects;

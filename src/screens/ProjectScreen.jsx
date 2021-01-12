@@ -9,7 +9,6 @@ import {
   Button,
   Container,
 } from "react-bootstrap";
-import Project from "../components/Project";
 import PageHeading from "../components/PageHeading";
 
 const ProjectScreen = () => {
@@ -80,7 +79,7 @@ const ProjectScreen = () => {
                   <Row>
                     <a href={project.repo} target="new">
                       {" "}
-                      <Button>Code Repo</Button>
+                      <Button className="btn btn-block">Code Repo</Button>
                     </a>
                   </Row>
                 </Col>

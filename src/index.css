@@ -1,8 +1,9 @@
-/* html,
-body {
-  overflow-x: scroll;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Xanh+Mono&display=swap');
 
+*{
+  /* font-family: 'Xanh Mono', monospace; */
+  font-family: 'Source Serif Pro', serif;
+}
 
 main {
   height: auto;
@@ -29,19 +30,11 @@ main {
 }
 
 .social-link {
-  /* color: black; */
+ 
   color: #313f4d;
 }
 
-.socials {
-  height: 50vh;
-  background-color: #e1e6e6;
-  width: 40vw;
-  border: solid 1px #4d5656;
 
-  margin: auto;
-  margin-top: 5em;
-}
 
 .social-link:hover {
   color: #4e6174;
@@ -111,6 +104,13 @@ main {
 @media(max-width:767px) {
   #profileImg {
     margin-left: 7em;
+  }
+}
+
+@media(max-width:575px){
+  #contact-submit{
+    display: block;
+    width: 100%;
   }
 }
 
