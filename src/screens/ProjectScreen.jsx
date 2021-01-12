@@ -15,15 +15,6 @@ const ProjectScreen = () => {
   return (
     <>
       <Container className="mb-4">
-        {/* <Row className="d-flex justify-content-center pt-4">
-        {projects.map((project) => (
-          <Col sm={12} md={6} lg={4} xl={4} className="text-center my-4 ">
-            <Project info={project} />
-          </Col>
-        ))}
-     
-      </Row> */}
-
         <PageHeading
           title="Projects"
           text="Below you will find my personal projects, with links to the deployed applications as well as the code repos."
@@ -76,12 +67,10 @@ const ProjectScreen = () => {
                   lg={2}
                   className="d-flex align-items-center"
                 >
-                  <Row>
-                    <a href={project.repo} target="new">
-                      {" "}
-                      <Button className="btn btn-block">Code Repo</Button>
-                    </a>
-                  </Row>
+                  <a href={project.repo} target="new">
+                    {" "}
+                    <Button className="btn btn-primary">Code Repo</Button>
+                  </a>
                 </Col>
               </Row>
             </ListGroupItem>

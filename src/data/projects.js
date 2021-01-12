@@ -1,11 +1,11 @@
 const projects = [
   {
-    title: "Habte-Eats",
+    title: "HabteJ Shop",
     description:
-      "Simple restaurant website that can be used as a template for a small business restaurant. Created using Gatsby JS / React.",
-    repo: "https://github.com/JEmnetu/HabteEats",
-    deploy: "https://habte-eats.netlify.app/",
-    img: "/images/he.png",
+      "Full Stack E-Commerce web application built with React, Redux, Express, MongoDB and Node JS. Users can create an account, view an inventory of items, and go through the steps to place an order.",
+    repo: "https://github.com/JEmnetu/HabteJ-shop",
+    deploy: "https://habtejshop.herokuapp.com/",
+    img: "/images/shop.png",
   },
   {
     title: "Covid-19 Dashboard",
@@ -16,21 +16,21 @@ const projects = [
     img: "/images/cov.png",
   },
   {
-    title: "HabteJ Shop",
+    title: "Habte-Eats",
     description:
-      "Full Stack E-Commerce web application built with React, Redux, Express, MongoDB and Node JS. Users can create an account, view an inventory of items, and go through the steps to place an order.",
-    repo: "https://github.com/JEmnetu/HabteJ-shop",
-    deploy: "https://habtejshop.herokuapp.com/",
-    img: "/images/shop.png",
+      "Simple restaurant website that can be used as a template for a small business restaurant. Created using Gatsby JS / React.",
+    repo: "https://github.com/JEmnetu/HabteEats",
+    deploy: "https://habte-eats.netlify.app/",
+    img: "/images/he.png",
   },
-  {
-    title: "Weather Application",
-    description:
-      "Weather dashboard application built with React JS. This app allows the user to search the OpenWeather API for a city and display the city's current weather and 5 day forecast.",
-    repo: "https://github.com/JEmnetu/react-weather-app",
-    deploy: "https://jhweather.netlify.app/",
-    img: "/images/Rweather.png",
-  },
+  // {
+  //   title: "Weather Application",
+  //   description:
+  //     "Weather dashboard application built with React JS. This app allows the user to search the OpenWeather API for a city and display the city's current weather and 5 day forecast.",
+  //   repo: "https://github.com/JEmnetu/react-weather-app",
+  //   deploy: "https://jhweather.netlify.app/",
+  //   img: "/images/Rweather.png",
+  // },
   {
     title: "Off The Menu",
     description:

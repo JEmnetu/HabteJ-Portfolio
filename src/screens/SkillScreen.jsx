@@ -52,7 +52,7 @@ const SkillScreen = (props) => {
                 <span>Other Skills</span>
               </ListGroupItem>
               <ListGroupItem variant="secondary">
-                Freelance Web Development
+                Freelance Development
               </ListGroupItem>
               <ListGroupItem variant="secondary">
                 Responsive Design
@@ -66,6 +66,9 @@ const SkillScreen = (props) => {
               </ListGroupItem>
               <ListGroupItem variant="secondary">
                 Remote Collaboration
+              </ListGroupItem>
+              <ListGroupItem variant="secondary">
+                Website Deployment
               </ListGroupItem>
             </ListGroup>
           </Col>
