@@ -66,7 +66,7 @@ const ContactScreen = () => {
                   id="email"
                   value={email}
                   required
-                  placeholder="Enter your email address"
+                  placeholder="Example@mail.com"
                   onChange={(e) => {
                     setEmail(e.target.value);
                   }}
